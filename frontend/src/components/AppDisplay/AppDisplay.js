@@ -20,7 +20,7 @@ export default function AppDisplay() {
                         </p>
                         <div id = "buttonContainer">
                             <Button onClick = {() => window.open(item.github)}><i className="fa-brands fa-github"></i> Github</Button>
-                            <Button onClick = {() => window.location.href=(window.location.origin + "/" + item.appLink)}><i className={item.appIcon}></i> App</Button>
+                            <Button onClick = {() => window.location.href=(item.appLink)}><i className={item.appIcon}></i> App</Button>
                         </div>       
                     </div>
                 )
