@@ -86,6 +86,8 @@ export default function NBA() {
     } else {
         return (
           <div className="center">
+            Please wait while server is being loaded.
+            (Takes about 10 seconds because I am on the free plan.)
             <img className="center" src={loading}/>
           </div>     
         )   
